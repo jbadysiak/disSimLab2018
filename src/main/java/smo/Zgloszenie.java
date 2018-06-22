@@ -42,6 +42,22 @@ public class Zgloszenie extends BasicSimObj {
         startNiecierpliwienia = new StartNiecierpliwienia(this);
     }
 
+    public Smo getSmo() {
+        return smo;
+    }
+
+    public void setSmo(Smo smo) {
+        this.smo = smo;
+    }
+
+    public KoniecNiecierpliwienia getKoniecNiecierpliwosci() {
+        return koniecNiecierpliwosci;
+    }
+
+    public void setKoniecNiecierpliwosci(KoniecNiecierpliwienia koniecNiecierpliwosci) {
+        this.koniecNiecierpliwosci = koniecNiecierpliwosci;
+    }
+
     @Override
     public void reflect(IPublisher publisher, INotificationEvent event) {
         // TODO Auto-generated method stub

@@ -83,4 +83,12 @@ public class Smo extends BasicSimObj
     public void setRozpocznijObsluge(Smo rozpocznijObsluge) throws SimControlException {
         this.rozpocznijObsluge = new RozpocznijObsluge(rozpocznijObsluge);
     }
+
+    public ZakonczObsluge getZakonczObsluge() {
+        return zakonczObsluge;
+    }
+
+    public void setZakonczObsluge(Smo parent, double delay, Zgloszenie zgl) throws SimControlException {
+        this.zakonczObsluge = new ZakonczObsluge(parent, delay, zgl);
+    }
 }
