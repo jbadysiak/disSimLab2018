@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c74819ab-f2e8-43c2-a5a8-645a1de7ff4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pythonPackage/endOfImpatience.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pythonPackage/endOfImpatience.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pythonPackage/endOfService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pythonPackage/endOfService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pythonPackage/notify.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pythonPackage/notify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pythonPackage/startOfImpatience.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pythonPackage/startOfImpatience.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pythonPackage/startOfService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pythonPackage/startOfService.py" afterDir="false" />
-    </list>
+    <list default="true" id="c74819ab-f2e8-43c2-a5a8-645a1de7ff4a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -413,7 +407,7 @@
       <workItem from="1525655561638" duration="559000" />
       <workItem from="1525656170028" duration="259000" />
       <workItem from="1525656492653" duration="1313000" />
-      <workItem from="1529628084704" duration="8949000" />
+      <workItem from="1529628084704" duration="9548000" />
     </task>
     <servers />
   </component>
@@ -450,7 +444,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32471000" />
+    <option name="totallyTimeSpent" value="33070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
