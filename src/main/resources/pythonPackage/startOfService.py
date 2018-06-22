@@ -17,7 +17,7 @@ if (smoParent.liczbaZgl() > 0):
     zgl.getKoniecNiecierpliwosci().interrupt()
     # Wygeneruj czas obsługi
     czasObslugi = generator.normal(9.0, 1.0)
-    print ("Python Start "+str(entry.simTime())+" - "+str(entry.simHour())+" - "+str(entry.simMinute())+" - "+str(entry.simSecond())+" - "+str(entry.simMillisecond())+": SMO- Początek obsługi zgl. nr: " + str(zgl.getTenNr()))
+    print (str(entry.simTime())+" - "+str(entry.simHour())+" - "+str(entry.simMinute())+" - "+str(entry.simSecond())+" - "+str(entry.simMillisecond())+": SMO- Początek obsługi zgl. nr: " + str(zgl.getTenNr()))
 
     # Zaplanuj koniec obsługi
     smoParent.setZakonczObsluge(smoParent, czasObslugi, zgl)

@@ -13,7 +13,7 @@ zgl = entry.newZgloszenie(time, parent_smo)
 
 parent_smo.dodaj(zgl)
 
-print ("Python Notify "+str(entry.simTime())+" - "+str(entry.simHour())+" - "+str(entry.simMinute())+" - "+str(entry.simSecond())+" - "+str(entry.simMillisecond())+": Otoczenie- Dodano nowe zgl. nr: " + str(zgl.getTenNr()));
+print (str(entry.simTime())+" - "+str(entry.simHour())+" - "+str(entry.simMinute())+" - "+str(entry.simSecond())+" - "+str(entry.simMillisecond())+": Otoczenie- Dodano nowe zgl. nr: " + str(zgl.getTenNr()));
 
 if (parent_smo.liczbaZgl()==1 and parent_smo.isWolne()):
     parent_smo.setRozpocznijObsluge(parent_smo)
