@@ -16,10 +16,12 @@ public class Zglaszaj extends BasicSimEvent<Otoczenie, Object>
     private SimGenerator generator;
     private Otoczenie parent;
 
+
     public Zglaszaj(Otoczenie parent, double delay) throws SimControlException
     {
     	super(parent, delay);
     	generator = new SimGenerator();
+
     }
 
     public Zglaszaj(Otoczenie parent) throws SimControlException
@@ -27,6 +29,26 @@ public class Zglaszaj extends BasicSimEvent<Otoczenie, Object>
     	super(parent);
     	generator = new SimGenerator();
     }
+
+	public SimGenerator getGenerator() {
+		return generator;
+	}
+
+	public void setGenerator(SimGenerator generator) {
+		this.generator = generator;
+	}
+
+	public Otoczenie getParent() {
+		return parent;
+	}
+
+	public void setParent(Otoczenie parent) {
+		this.parent = parent;
+	}
+
+	public Zgloszenie newZgloszenie(double time, Smo smo) {
+		return new Zgloszenie(time, smo);
+	}
     
 	@Override
 	protected void onInterruption() throws SimControlException {
