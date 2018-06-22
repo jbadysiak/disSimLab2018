@@ -54,8 +54,8 @@ public class Zgloszenie extends BasicSimObj {
         return koniecNiecierpliwosci;
     }
 
-    public void setKoniecNiecierpliwosci(KoniecNiecierpliwienia koniecNiecierpliwosci) {
-        this.koniecNiecierpliwosci = koniecNiecierpliwosci;
+    public void setKoniecNiecierpliwosci(Zgloszenie parent, double delay) throws SimControlException {
+        this.koniecNiecierpliwosci = new KoniecNiecierpliwienia(parent, delay);
     }
 
     @Override
